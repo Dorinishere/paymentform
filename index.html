@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payment Form</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div class="container">
+    <form action =" " method="get">
+    <h1 class="main_heading"> Payment Form</h1>
+    <p> Required Fileds are followed by *</p>
+    <h2>User Information</h2>
+    <p> Name* 
+    <input type="text" required name="name" placeholder="Dorin James">
+</p>
+    <p>
+    <fieldset>
+        <legend> Gender </legend>
+    Male<input type="radio" name="Gender" id ="Male" required >
+    Female<input type="radio" name="Gender"id ="Female" required >
+    </p>
+</fieldset>
+<p>Address:
+    <textarea  placeholder="Enter your Address" name="address" cols="80"rows="5"></textarea></p>
+
+<p> Email:*<input type="email" id="email" required placeholder="Enter your E-mail id"></textarea Required> </p>
+
+<p> PinCode:*<input type="number" id="PinCode" cols="70" rows="3" required placeholder="123456"></textarea></p>
+
+<h3> Payment Information</h3>
+<p class="img">Card Type: 
+    <img src="Visa_Inc._logo.svg.png">
+    <img src="mastercard.png">
+    <img src="credit-card-icon-sign-symbol-design-free-png.webp" alt="">
+    </p>
+    <select name *="Card_type" id ="Card_type" required>
+  <option value ="">-----Select a Card Type-----</option>
+  <option value="Visa">Visa</option>
+  <option value="MasterCard">MasterCard</option>
+  <option value="CreditCard">CreditCard</option>
+
+
+
+</select>
+<p> 
+    CardNumber*<input type="Number" id="CardNumber" required placeholder="xxxx-xxxx-xxxx-xxxx">
+</p>
+<p> 
+    Expiration Date:* <input type="date" id="Exp_date" required placeholder="">
+
+</p>
+<P> CVV *<input type="password" id="CVV" required placeholder="xxx">
+   <input type="submit" value="Pay Now">
+</P>
+    </form>
+</p>
+</div>
+</p>
+</body>
+</html>
